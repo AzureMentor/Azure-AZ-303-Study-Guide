@@ -2,29 +2,47 @@
 
 ## Implement cloud infrastructure monitoring
 - monitor security
+    - [Azure infrastructure monitoring](https://docs.microsoft.com/en-us/azure/security/fundamentals/infrastructure-monitoring)
+    - [Security Control: Logging and Monitoring](https://docs.microsoft.com/en-us/azure/security/benchmarks/security-control-logging-monitoring)
+    - [Strengthen your security posture with Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/security-center-monitoring)
 - monitor performance
   - configure diagnostic settings on resources
+    - [Create diagnostic settings to send platform logs and metrics to different destinations](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
+    - [Resource Manager template samples for diagnostic settings in Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/samples/resource-manager-diagnostic-settings)
   - create a performance baseline for resources
+    - [Metric Baseline - Get](https://docs.microsoft.com/en-us/rest/api/monitor/metricbaseline/get)
   - monitor for unused resources
+    - [Quickstart: Monitor an Azure resource with Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-monitor-azure-resource)
   - monitor performance capacity
-  - visualize diagnostics data using Azure Monitor
+    - [Collect event and performance data](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-collect-azurevm#collect-event-and-performance-data)
+  - [visualize diagnostics data using Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/visualizations)
+    - [Visualizations](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/workbooks-overview#visualizations)
+    - [Azure Monitor Workbooks](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/workbooks-overview)
 - monitor health and availability
-  - monitor networking
-  - monitor service health
+  - [monitor networking](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-insights-overview)
+  - [monitor service health](https://docs.microsoft.com/en-us/azure/service-health/)
+  - [Resource Health](https://docs.microsoft.com/en-us/azure/service-health/resource-health-overview)
 - monitor cost
   - monitor spend
+    - [Use cost alerts to monitor usage and spending](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
+    - [Checklist - Monitor cost](https://docs.microsoft.com/en-us/azure/architecture/framework/cost/monitor-checklist)
   - report on spend
+    - [Download or view your Azure billing invoice and daily usage data](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date)
 - configure advanced logging
   - implement and configure Azure Monitor insights, including:
-    - App Insights
-    - Networks
-    - Containers
-  - configure a Log Analytics workspace
+    - [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/insights-overview#application-insights)
+    - [Networks](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/insights-overview#azure-monitor-for-networks-preview)
+    - [Containers](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/insights-overview#azure-monitor-for-containers)
+  - [configure a Log Analytics workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-platform-logs)
 - configure logging for workloads
-  - initiate automated responses by using Action Groups
+  - [initiate automated responses by using Action Groups](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups)
 - configure and manage advanced alerts
   - collect alerts and metrics across multiple subscriptions
-  - view Alerts in Azure Monitor logs
+    - [Manage alert instances with unified alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-managing-alert-instances)
+    - [Create diagnostic settings to send platform logs and metrics to different destinations](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
+    - [Overview of alerts in Microsoft Azure](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview)
+    - [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace)
+  - [view Alerts in Azure Monitor logs](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-log)
 
 ## Implement storage accounts
 - select storage account options based on a use case
