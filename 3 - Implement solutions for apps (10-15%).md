@@ -1,4 +1,4 @@
-# AZ-303: Implement solutions for apps (10-15%)
+# AZ-303: Implement Solutions for Apps (10-15%)
 
 ## Implement an application infrastructure
 - create and configure Azure App Service
@@ -12,8 +12,8 @@
 
 ## Implement container-based applications
 - create a container image
-- configure Azure Kubernetes Service
-- publish and automate image deployment to the Azure Container Registry
-- publish a solution on an Azure Container Instance
+- configure Azure Kubernetes Service (AKS)
+- publish and automate image deployment to the Azure Container Registry (ACR)
+- publish a solution on an Azure Container Instance (ACI)
 
 [Return to Table of Contents](README.md)

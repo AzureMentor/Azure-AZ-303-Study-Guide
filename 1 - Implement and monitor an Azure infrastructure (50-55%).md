@@ -1,4 +1,4 @@
-# AZ-303: Implement and monitor an Azure infrastructure (50-55%)
+# AZ-303: Implement and Monitor an Azure Infrastructure (50-55%)
 
 ## Implement cloud infrastructure monitoring
 - monitor security
@@ -29,7 +29,7 @@
 ## Implement storage accounts
 - select storage account options based on a use case
 - configure Azure Files and blob storage
-- configure network access t  - the storage account
+- configure network access to the storage account
 - implement Shared Access Signatures and access policies
 - implement Azure AD authentication for storage
 - manage access keys
@@ -45,8 +45,8 @@
 - configure Azure Disk Encryption
 
 ## Automate deployment and configuration of resources
-- save a deployment as an Azure Resource Manager template
-- modify Azure Resource Manager template
+- save a deployment as an Azure Resource Manager (ARM) template
+- modify ARM template
 - evaluate location of new resources
 - configure a virtual disk template
 - deploy from a template
@@ -54,7 +54,7 @@
 - create and execute an automation runbook
 
 ## Implement virtual networking
-- implement VNet t  - VNet connections
+- implement VNet to VNet connections
 - implement VNet peering
 
 ## Implement Azure Active Directory
@@ -77,5 +77,4 @@
 - configure single sign-on
 - use Azure AD Connect Health
 
-
-[Return t  - Table of Contents](README.md)
+[Return to Table of Contents](README.md)

@@ -1,4 +1,4 @@
-# AZ-303: Implement management and security solutions (25-30%)
+# AZ-303: Implement Management and Security Solutions (25-30%)
 
 ## Manage workloads in Azure
 - migrate workloads using Azure Migrate
@@ -17,16 +17,19 @@
 - implement Azure Firewall
 - implement the Azure Front Door Service
 - implement Azure Traffic Manager
-- implement Network Security Groups and Application Security Groups
+- implement Network Security Groups
+- implement Application Security Groups
 - implement Bastion
 
 ## Implement and manage Azure governance solutions
-- create and manage hierarchical structure that contains management groups,
-subscriptions and resource groups
+- create and manage hierarchical structure that contains:
+  - management groups
+  - subscriptions
+  - resource groups
 - assign RBAC roles
 - create a custom RBAC role
-- configure access t  - Azure resources by assigning roles
-- configure management access t  - Azure
+- configure access to Azure resources by assigning roles
+- configure management access to Azure
 - interpret effective permissions
 - set up and perform an access review
 - implement and configure an Azure Policy
@@ -37,6 +40,4 @@ subscriptions and resource groups
 - implement and configure Azure AD Managed Identities
 - register and manage applications in Azure AD
 
-
-
-[Return t  - Table of Contents](README.md)
+[Return to Table of Contents](README.md)
